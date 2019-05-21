@@ -1,0 +1,20 @@
+config:
+    renderer: markdown
+
+modules:
+  intro:
+    name: Introduction
+  business-central:
+    name: Business Central Workbench
+  creating-datasources:
+    name: Creating DataSources
+  creating-datasets:
+    name: Creating DataSets
+  creating-report-tasks:
+    name: Creating Task Reports
+  create-report-customer-satisfaction:
+    name: Creating Customer Satisfaction Reports
+  publishing-report-pages:
+    name: Publishing Report Pages
+  finish:
+    name: Conclusion
