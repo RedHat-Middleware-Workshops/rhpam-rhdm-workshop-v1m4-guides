@@ -20,4 +20,4 @@ Use the following credentials to log in:
 
 If all is well, you will be presented with the following screen:
 
-<img src="../../assets/middleware/rhpam-7-workshop/pam7-index.png" width="800" />
+![RHPAM 7 Index]({% image_path pam7-index.png %}){:width="600px"}

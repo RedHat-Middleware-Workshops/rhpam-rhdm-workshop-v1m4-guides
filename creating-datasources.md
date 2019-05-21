@@ -21,7 +21,7 @@ Process Automation Manager 7 can come with pre-provisioned database-drivers for 
 
 ---
 
-1. Go to the “Settings” screen by clicking on the gear icon in the upper right corner: <img src="../../assets/middleware/rhpam-7-workshop/gear-icon.png" width="30" />
+1. Go to the “Settings” screen by clicking on the gear icon in the upper right corner: ![Gear Icon]({% image_path gear-icon.png %}){:width="30px"}
 2. Click on the *Data Sources* tile.
 3. In the *Drivers* section, click on *+ Add Driver*.
 4. In the *New driver* from, entering the following values and click on *Finish*:
@@ -47,9 +47,9 @@ Now that we've created the DataSet, we can explore its content.
 1. Click on the *PAM-Workshop-Reporting* DataSet that we've just created.
 2. Click on the *Browse content* button at the top of the panel. This will open the *Schemas* of the datasource.
 3. Click on thew *Open* button of the `public` schema.
-<img src="../../assets/middleware/rhpam-7-workshop/pam-enablement-dataset-explore.png" width="600" />
-3. The `public` schema of our database contains two tables. One `task` table which contains the open and completed tasks of our credit-card dispute cases, and a `customer_satisfaction` table which contains information of the customer satisfaction related to our credit-card dispute cases.
-4. Click on the *Open* button next to the `task` table and explore the table's content.
-5. Go back to the *public* schema page and click on the *Open* button next to the `customer_satisfaction` table and explore the table's content.
+![RHPAM Enablement Dataset Explore]({% image_path pam-enablement-dataset-explore.png %}){:width="600px"}
+4. The `public` schema of our database contains two tables. One `task` table which contains the open and completed tasks of our credit-card dispute cases, and a `customer_satisfaction` table which contains information of the customer satisfaction related to our credit-card dispute cases.
+5. Click on the *Open* button next to the `task` table and explore the table's content.
+6. Go back to the *public* schema page and click on the *Open* button next to the `customer_satisfaction` table and explore the table's content.
 
 Now that we've created a connection to our PostgreSQL *DataSource* we can define the *DataSets* that we will use to render our reports.

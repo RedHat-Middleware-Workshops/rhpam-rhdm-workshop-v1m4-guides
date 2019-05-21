@@ -4,12 +4,11 @@ This is `module 4` of a full-day hands-on Red Hat Process Automation Manager and
 
 Agenda
 ===
-* Use Case Overview
-* Business Object Model
-* Decisions Authoring
-* Decisions as a Service
-* Testing a Decision Service
-* Executing a Decision Service
+* Business Central Workbench
+* Creating Datasources
+* Creating Datasets
+* Creating Tasks Reports
+* Creating Customer Satisfaction Reports
 
 Lab Instructions on OpenShift
 ===

@@ -17,4 +17,4 @@ Note that the query we've used in our data-set already categorizes each customer
 
 As in the previous report, try to enable filters on the data by select a bar in the bar-chart. Notice how the entry in the table gets filtered.
 
-<img src="../../assets/middleware/rhpam-7-workshop/create-report-customer-satisfaction.png" width="600" />
+![Create Report Customer Satisfaction]({% image_path create-report-customer-satisfaction.png %}){:width="600px"}

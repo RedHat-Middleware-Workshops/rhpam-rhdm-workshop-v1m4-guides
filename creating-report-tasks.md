@@ -20,7 +20,7 @@ Reports are created as so called *Pages* in the Process Automation Manager Busin
 
 The page should somewhat look like this:
 
-<img src="../../assets/middleware/rhpam-7-workshop/create-report-tasks.png" width="600" />
+![Create Report Tasks]({% image_path create-report-tasks.png %}){:width="600px"}
 
 We will now demonstrate how different reporting components can interact with each other when they use the same *Data Set*. To demonstrate this we will add a metric component that sums the number of tasks and a list that shows the actual tasks.
 
@@ -37,4 +37,4 @@ We can also select a second user, for example "George", to filter just the tasks
 
 Finally, the filters can be cleared by either clicking in the pie-chart, or removing the items from filter row at the top of the component.
 
-<img src="../../assets/middleware/rhpam-7-workshop/create-report-tasks-2.png" width="600" />
+![Create Report Tasks 2]({% image_path create-report-tasks-2.png %}){:width="600px"}

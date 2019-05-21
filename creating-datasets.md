@@ -2,8 +2,7 @@ Now that we have a *DataSource* defined, we can create our *DataSet*.
 
 A *DataSet* in Process Automation Manager 7 defines a set of data, consumed from one of the supported providers. A provider can be a Java Bean, a CSV file, a database table or SQL query, or an ElasticSearch query. Apart from fetching data from a provider, a *DataSet* also provides functionality like caching and filtering of data, which improves performance and allows for flexibility in data fetching depending on the requirements of the report.
 
-1. Go to the “Settings” screen by clicking on the gear icon in the upper right corner: <img src="../../assets/middleware/rhpam-7-workshop/gear-icon.png" width="30" />
-
+1. Go to the “Settings” screen by clicking on the gear icon in the upper right corner: ![Gear Icon]({% image_path gear-icon.png %}){:width="30px"}
 2. Click on the *Data Sets* tile.
 3. In the *Data Set Explorer* screen, click on the *New Data Set* button.
 4. Select the *SQL* provider type.

@@ -10,6 +10,6 @@ To do this:
 6. Click again on the gear icon next to the *Report* group and click on *+ New Page*. Select the *customer-satisfaction-report* and save the changes.
 6. Click on the *Menu* on the top bar of the workbench and note that a new *Report* group has been added to the menu which contains our 2 report pages. Click on one of them to open the given page.
 
-<img src="../../assets/middleware/rhpam-7-workshop/create-report-navigation-menu.png" width="600" />
+![Create Report Navigation Menu]({% image_path create-report-navigation-menu.png %}){:width="600px"}
 
 The Business Central workbench contains a lot more options to create even more sophisticated pages and applications, including navigation elements like menu-bars and carousels. We leave it as exercise to the user to create these more advanced pages and applications with these page navigation components.
