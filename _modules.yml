@@ -12,7 +12,7 @@ modules:
     name: Creating DataSets
   creating-report-tasks:
     name: Creating Task Reports
-  create-report-customer-satisfaction:
+  creating-report-customer-satisfaction:
     name: Creating Customer Satisfaction Reports
   publishing-report-pages:
     name: Publishing Report Pages
