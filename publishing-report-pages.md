@@ -1,10 +1,12 @@
+# Publishing Reports
+
 Apart from creating report pages, we can also add these pages to the Process Automation Manager 7 Business Central workbench navigation.
 
 To do this:
 
 1. Go to *Menu* -> *Design* -> *Pages* and click on the *Navigation* icon on the left-hand side of the screen.
 2. Expand the *Workbench* entry. Note that the main menu items of Business Central are listed: Design, Deploy, Manage, Track
-3. Add a new top-level menu called *Report* by clicking on the gear icon next to the *Workbench* entry and select *+ New Group*. Give the the group the name `Report`{{copy}}.
+3. Add a new top-level menu called *Report* by clicking on the gear icon next to the *Workbench* entry and select *+ New Group*. Give the the group the name `Report`.
 4. Save the changes by clicking the *Save* button.
 5. Click on the gear icon next to the *Report* group and click on *+ New Page*. Select the *active-tasks-report* and save the changes.
 6. Click again on the gear icon next to the *Report* group and click on *+ New Page*. Select the *customer-satisfaction-report* and save the changes.

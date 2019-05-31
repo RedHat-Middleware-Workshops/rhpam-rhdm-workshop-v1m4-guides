@@ -1,3 +1,5 @@
+# DataSets
+
 Now that we have a *DataSource* defined, we can create our *DataSet*.
 
 A *DataSet* in Process Automation Manager 7 defines a set of data, consumed from one of the supported providers. A provider can be a Java Bean, a CSV file, a database table or SQL query, or an ElasticSearch query. Apart from fetching data from a provider, a *DataSet* also provides functionality like caching and filtering of data, which improves performance and allows for flexibility in data fetching depending on the requirements of the report.
@@ -7,11 +9,11 @@ A *DataSet* in Process Automation Manager 7 defines a set of data, consumed from
 3. In the *Data Set Explorer* screen, click on the *New Data Set* button.
 4. Select the *SQL* provider type.
 5. In the *Data Set Creation Wizard*, provide the following configuration:
-  * Name: `active_tasks_per_owner`{{copy}}
-  * Data Source: `PAM-Workshop-Reporting`{{copy}}
+  * Name: `active_tasks_per_owner`
+  * Data Source: `PAM-Workshop-Reporting`
   * Schema: (leave empty)
   * Source: enable *Query* and use the following SQL Query:
-    `select id, status, actualowner FROM task WHERE status = 'active'`{{copy}}
+    `select id, status, actualowner FROM task WHERE status = 'active'`
 6. Click on the *Test* button. This will execute the query and show a preview of the result.
 7. When the test is successful, click on the *Next* button and save the *Data Set*.
 
@@ -24,8 +26,8 @@ We will now create the DataSet of our customer satisfaction.
 1. In the *Data Set Explorer* screen, click again on the *New Data Set* button.
 2. Select the *SQL* provider type.
 3. In the *Data Set Creation Wizard*, provide the following configuration:
-  * Name: `customer_satisfaction`{{copy}}
-  * Data Source: `PAM-Workshop-Reporting`{{copy}}
+  * Name: `customer_satisfaction`
+  * Data Source: `PAM-Workshop-Reporting`
   * Schema: (leave empty)
   * Source: enable *Query* and use the following SQL Query:
 <pre class="file" data-target="clipboard">

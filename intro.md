@@ -1,4 +1,6 @@
-In this scenario we will explore the dashboard and reporting capabilities of Red Hat Process Automation Manager 7.
+# Introduction
+
+In this module we will explore the dashboard and reporting capabilities of Red Hat Process Automation Manager 7.
 
 Based on the Form Modeler and DataSet capabilities of Process Automation Manager 7, the Reporting components provide a fast and intuitive way to create sophisticated reports, reporting web-pages, and reporting applications, using an easy to use drag-and-drop modeler.
 
