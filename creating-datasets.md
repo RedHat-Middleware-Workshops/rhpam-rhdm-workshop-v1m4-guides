@@ -25,11 +25,11 @@ We will now create the DataSet of our customer satisfaction.
 
 1. In the *Data Set Explorer* screen, click again on the *New Data Set* button.
 2. Select the *SQL* provider type.
-3. In the *Data Set Creation Wizard*, provide the following configuration:
-  * Name: `customer_satisfaction`
-  * Data Source: `PAM-Workshop-Reporting`
-  * Schema: (leave empty)
-  * Source: enable *Query* and use the following SQL Query:
+3. In the *Data Set Creation Wizard*, provide the following configuration:  
+  * Name: `customer_satisfaction`  
+  * Data Source: `PAM-Workshop-Reporting`  
+  * Schema: (leave empty)  
+  * Source: enable *Query* and use the following SQL Query:  
 <pre class="file" data-target="clipboard">
 select *, (case
                     when satisfactionscore <= 50 then '0-50'        
