@@ -8,12 +8,12 @@ A *DataSet* in Process Automation Manager 7 defines a set of data, consumed from
 2. Click on the *Data Sets* tile.
 3. In the *Data Set Explorer* screen, click on the *New Data Set* button.
 4. Select the *SQL* provider type.
-5. In the *Data Set Creation Wizard*, provide the following configuration:
-  * Name: `active_tasks_per_owner`
-  * Data Source: `PAM-Workshop-Reporting`
-  * Schema: (leave empty)
-  * Source: enable *Query* and use the following SQL Query:
-    `select id, status, actualowner FROM task WHERE status = 'active'`
+5. In the *Data Set Creation Wizard*, provide the following configuration:  
+  * Name: `active_tasks_per_owner`  
+  * Data Source: `PAM-Workshop-Reporting`  
+  * Schema: (leave empty)  
+  * Source: enable *Query* and use the following SQL Query:  
+    `select id, status, actualowner FROM task WHERE status = 'active'`  
 6. Click on the *Test* button. This will execute the query and show a preview of the result.
 7. When the test is successful, click on the *Next* button and save the *Data Set*.
 
