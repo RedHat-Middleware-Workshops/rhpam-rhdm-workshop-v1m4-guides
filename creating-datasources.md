@@ -6,11 +6,11 @@ As mentioned in the introduction of this scenario, a DataSet in Process Automati
 
 For this scenario, we’ve prepared a database with task data and customer satisfaction data of our *Credit Card Dispute* use-case. The database is a pre-provisioned PostgreSQL database running in our OpenShift environment.
 
-* Host: `postgres`
+* Host: `postgresql.labs-infra.svc.cluster.local`
 * Port: `5432`
 * User: `postgres`
 * Password: `postgres`
-* Database: `postgres`
+* Database:  `postgres`
 
 In Business Central, you can use this information to create a new *DataSource* that we can later use in our *DataSet*.
 
@@ -38,7 +38,7 @@ Next, we can create the *DataSource* that connects to our PostgreSQL database.
 1. In the *Data Sources* screen, click on *+ Add DataSource* on the left-hand side of the screen, which will open the *New data source form*.
 2. Fill in the following values:
   * Name: `PAM-Workshop-Reporting`
-  * Connection URL: `jdbc:postgresql://postgresql:5432/postgres`
+  * Connection URL: `jdbc:postgresql://postgresql.labs-infra.svc.cluster.local:5432/postgres`
   * User: `postgres`
   * Password: `postgres`
   * Driver: `PostgreSQL`
