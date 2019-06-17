@@ -12,7 +12,7 @@ Reports are created as so called *Pages* in the Process Automation Manager Busin
 2. The Process Automation Manager drag-and-drop *Page Editor* will open.
 3. Explore the *Components* palette. Note that there 3 different types of components, *Core*, *Navigation* and *Reporting*.
 4. Open the *Reporting* components palette. Observe that the *Reporting* menu has various reporting components, like *Bars*, *Pie Charts*,  *Lines*, *Meters* and *Maps*.
-5. From the *Core* menu, drag the *HTML* component to the top of the page. This will open the *HTLM Editor*.
+5. From the *Core* menu, drag the *HTML* component to the top of the page. This will open the *HTML Editor*.
 6. In the *HTML Editor*. Align the text in the centre, enable the *Bold* font and select *h1 (Big Title)*. Write the text "Active Tasks Report" and click on *Ok*.
 7. From the *Reporting* components, drag the *Pie* onto the page. In the *New Displayer* configuration page, click on the *Data* tab and select the *active_tasks_per_owner* Data Set. Next, select *actualowner* in the *Categories* drop-down list and click on *Ok*.
 8. As we want to make the page a bit more attractive, we add a logo to the top of our screen, next to the report title in the top right corner. From the *Core* components, drag the *HTML* component onto the page and place it next to the page title. In the *HTML Editor* click on the image icon. In the form that opens, use the following URL for the image `https://upload.wikimedia.org/wikipedia/commons/b/b0/Beatles_logo.svg` and click *Ok*. Remove the "Add your HTLM here..." text and click *Ok*.
