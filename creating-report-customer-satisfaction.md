@@ -11,7 +11,7 @@ Note that the query we've used in our data-set already categorizes each customer
   * Name: `customer-satisfaction-report`
   * Style: `Fluid`
 2. The Process Automation Manager drag-and-drop *Page Editor* will open.
-3. From the *Core* menu, drag the *HTML* component to the top of the page. This will open the *HTLM Editor*.
+3. From the *Core* menu, drag the *HTML* component to the top of the page. This will open the *HTML Editor*.
 6. In the *HTML Editor*. Align the text in the centre, enable the *Bold* font and select *h1 (Big Title)*. Write the text "Customer Satisfaction Report" and click on *Ok*.
 7. From the *Reporting* components, drag the *Bar* onto the page. In the *New Displayer* configuration page, click on the *Data* tab and select the *customer_satisfaction* Data Set. Next, select *satisfactionscore_range* in the *Categories* drop-down list and select the *id* : *Count* in the *Series* section. Click on *Ok*.
 8. Add a *Table* component to the page and use the same *Data Set* as the data provider.
