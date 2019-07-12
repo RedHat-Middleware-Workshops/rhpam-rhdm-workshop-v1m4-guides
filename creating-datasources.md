@@ -1,6 +1,6 @@
 # DataSources
 
-Before we can build a reporting page, we first need to define and create a so called *DataSet* that will provide the data that our report(s) will render.
+Before we can build a reporting page, we first need to define and create a so called *DataSource* that will provide the data that our report(s) will render.
 
 As mentioned in the introduction of this scenario, a DataSet in Process Automation Manager 7 can be based on various data providers, including Java Beans, CSV and SQL. In this example we will use a DataSet that uses the SQL provider.
 
@@ -27,26 +27,26 @@ Process Automation Manager 7 can come with pre-provisioned database-drivers for 
 2. Click on the *Data Sources* tile.
 3. In the *Drivers* section, click on *+ Add Driver*.
 4. In the *New driver* from, entering the following values and click on *Finish*:
-  * Name: `PostgreSQL`  
-  * Driver Class Name: `org.postgresql.Driver`  
-  * Group Id: `org.postgresql`  
-  * Artifact Id: `postgresql`  
-  * Version: `9.4.1212.jre7`  
+    - Name: `PostgreSQL`  
+    - Driver Class Name: `org.postgresql.Driver`  
+    - Group Id: `org.postgresql`  
+    - Artifact Id: `postgresql`  
+    - Version: `9.4.1212.jre7`  
 
 Next, we can create the *DataSource* that connects to our PostgreSQL database.
 
 1. In the *Data Sources* screen, click on *+ Add DataSource* on the left-hand side of the screen, which will open the *New data source form*.
 2. Fill in the following values:
-  * Name: `PAM-Workshop-Reporting`  
-  * Connection URL: `jdbc:postgresql://postgresql.labs-infra.svc.cluster.local:5432/postgres`  
-  * User: `postgres`  
-  * Password: `postgres`  
-  * Driver: `PostgreSQL`  
-3. Click on “Test Connection” to test the setup and if the test is OK, click on “Finish”
+    - Name: `PAM-Workshop-Reporting`  
+    - Connection URL: `jdbc:postgresql://postgresql.labs-infra.svc.cluster.local:5432/postgres`  
+    - User: `postgres`  
+    - Password: `postgres`  
+    - Driver: `PostgreSQL`  
+3. Click on `Test Connection` to test the setup and if the test is OK, click on `Finish`
 
-Now that we've created the DataSet, we can explore its content.
+Now that we've created the DataSource, we can explore its content.
 
-1. Click on the *PAM-Workshop-Reporting* DataSet that we've just created.
+1. Click on the *PAM-Workshop-Reporting* DataSource that we've just created.
 2. Click on the *Browse content* button at the top of the panel. This will open the *Schemas* of the datasource.
 3. Click on thew *Open* button of the `public` schema.
 ![RHPAM Enablement Dataset Explore]({% image_path pam-enablement-dataset-explore.png %}){:width="600px"}
