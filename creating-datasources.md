@@ -49,13 +49,12 @@ Next, we can create the *DataSource* that connects to our PostgreSQL database.
 3. Click on `Test Connection` to test the setup and if the test is OK, click on `Finish`
 ![Business Central New Datasource]({% image_path business-central-settings-add-datasource.png %}){:width="600px"}
 
-![Business Central Test New Datasource]({% image_path business-central-settings-add-datasource-test-connection.png %}){:width="600px"}
+![Business Central Test New Datasource]({% image_path business-central-settings-datasource-test-connection.png %}){:width="600px"}
 
 Now that we've created the DataSource, we can explore its content.
 
 1. Click on the *PAM-Workshop-Reporting* DataSource that we've just created.
 2. Click on the *Browse content* button at the top of the panel. This will open the *Schemas* of the datasource.
-![RHPAM Enablement Dataset List]({% image_path business-central-navigate-datasource.png %}){:width="600px"}-
 3. Click on thew *Open* button of the `public` schema.
 ![RHPAM Enablement Dataset Explore]({% image_path pam-enablement-dataset-explore.png %}){:width="600px"}
 4. The `public` schema of our database contains two tables. One `task` table which contains the open and completed tasks of our credit-card dispute cases, and a `customer_satisfaction` table which contains information of the customer satisfaction related to our credit-card dispute cases.
