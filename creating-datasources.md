@@ -63,3 +63,4 @@ Now that we've created the DataSource, we can explore its content.
 6. Go back to the *public* schema page and click on the *Open* button next to the `customer_satisfaction` table and explore the table's content.
 
 Now that we've created a connection to our PostgreSQL *DataSource* we can define the *DataSets* that we will use to render our reports.
+creating-datasets.mdcreating-datasets.md
